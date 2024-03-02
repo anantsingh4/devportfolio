@@ -6,12 +6,14 @@ import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import './global.css';
 import ProjectsSection from "./components/ProjectSection";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-white">
       <Navbar/>
       <div className="container mt-24 mx-auto px-12 py-4">
+        <SpeedInsights/>
         <HeroSection/>
         <AboutSection/>
         <ProjectsSection/>
