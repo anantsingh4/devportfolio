@@ -42,12 +42,12 @@ const AboutSection = () => {
   return (
     <section className="text-black" id="about">
       <div className="gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image
+        {/* <Image
           src="/images/about-demo2.jpg"
           width={500}
           height={300}
           className="hidden"
-        />
+        /> */}
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-black mb-4">About me</h2>
           <p className="text-base lg:text-lg">
